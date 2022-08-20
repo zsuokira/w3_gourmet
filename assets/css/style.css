@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+html {
+    font-family:'Times New Roman', Georgia, serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+    overflow: hidden;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-1 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 49.999999%;
+}
+
+#header {
+    background-color: #fff;
+    position: fixed;
+    height: 54.5px;
+    padding: 8px 16px;
+    box-shadow: 0 0 10px rgba(0,0, 0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#header .header-name {
+    width: 234.64px;
+    height: 38.5px;
+    text-align: center;
+    line-height: 38.5px;
+    letter-spacing: 3.5px;
+    display: inline-block;
+}
+
+#header .header-name:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+#header .header-nav {
+    float: right;
+}
+
+#header .header-nav .nav-item {
+    height: 38.5px;
+    text-align: center;
+    letter-spacing: 3.5px;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+#header .header-nav .nav-item:hover {
+    background-color: #ccc ;
+    cursor: pointer;
+}
+
+#slider {
+    position: relative;
+}
+
+#slider .slider-img {
+    width: 100%;
+}
+
+#slider .slider-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 36px;
+    padding: 22px 24px;
+    opacity: 0.6;
+    letter-spacing: 5px;
+}
+
+
+#content {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-content  {
+    padding: 64px 0;
+}
+
+#content .about-img {
+    opacity: 0.75;
+    width: 100%;
+    height: auto;
+    padding: 12px 24px;
+}
+
+#content .about-content {
+    height: auto;
+    padding: 12px 24px;
+}
+
+.about-content .about-heading {
+    font-size: 36px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.about-content .about-birth {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.about-content > p {
+    margin: 18px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.about-content > p > .seasonal {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 0 8px;
+}
+
+.about-pc {
+    display: none;
+}
+
+@media (min-width:990px) {
+    .about-pc {
+        display: block;
+        margin: 18px 0;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #757575;
+    }
+}
+
+#content .menu-content {
+    padding: 12px 24px;
+}
+
+.menu-content .menu-heading {
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.menu-content .foot-name {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 10px 0;
+}
+
+.menu-content .food-info {
+    font-size: 15px;
+    color: #757575;
+    margin: 15px 0;
+}
+
+.menu-img {
+    opacity: 0.75;
+    padding: 12px 24px;
+}
+
+.img-menu {
+    width: 100%;
+    height: auto;
+}
+
+
+#footer {
+
+}
+
+
