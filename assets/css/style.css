@@ -5,8 +5,13 @@
 }
 
 li {
-    list-style-type: none;
+    list-style-type: none!important;
 }
+
+p {
+    padding: 16px 0!important;
+}
+
 hr {
     border: 0;
     border-top: 1px solid #eee;
@@ -19,7 +24,7 @@ a {
 }
 
 html {
-    font-family:'Times New Roman', Georgia, serif;
+    font-family:'Times New Roman', Georgia, serif !important;
 }
 
 .clear {
@@ -27,7 +32,7 @@ html {
 }
 
 .text-center {
-    text-align: center;
+    text-align: center!important;
 }
 
 .row {
@@ -211,9 +216,56 @@ html {
     height: auto;
 }
 
+.contact-section {
+    padding: 12px 24px;
+}
 
-#footer {
+.contact-heading {
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 10px 0;
+}
 
+.contact-content {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.contact-addr {
+    margin: 18px 0;
+    color: #607d8b;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 16px 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.form-button {
+    padding: 8px 16px;
+    margin: 16px 0;
+    border: none;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    color: #000;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.form-button:hover {
+    background-color: #ccc;
+}
+
+#footer .footer-section {
+    padding: 32px 0;
+    background-color: #f1f1f1;
+    color: #000;
+    text-align: center;
 }
 
 
